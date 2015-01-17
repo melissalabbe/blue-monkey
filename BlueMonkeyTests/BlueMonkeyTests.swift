@@ -2,8 +2,8 @@
 //  BlueMonkeyTests.swift
 //  BlueMonkeyTests
 //
-//  Created by MELISSA LABBE on 12/22/14.
-//  Copyright (c) 2014 MELISSA LABBE. All rights reserved.
+//  Created by MELISSA LABBE on 1/15/15.
+//  Copyright (c) 2015 MELISSA LABBE. All rights reserved.
 //
 
 import UIKit
