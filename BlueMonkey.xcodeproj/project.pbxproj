@@ -7,48 +7,122 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF9BF6021A4892B600227C59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9BF6011A4892B600227C59 /* AppDelegate.swift */; };
-		DF9BF6041A4892B600227C59 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF9BF6031A4892B600227C59 /* GameScene.sks */; };
-		DF9BF6061A4892B600227C59 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9BF6051A4892B600227C59 /* GameScene.swift */; };
-		DF9BF6081A4892B600227C59 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9BF6071A4892B600227C59 /* GameViewController.swift */; };
-		DF9BF60B1A4892B600227C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9BF6091A4892B600227C59 /* Main.storyboard */; };
-		DF9BF60D1A4892B600227C59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9BF60C1A4892B600227C59 /* Images.xcassets */; };
-		DF9BF6191A4892B600227C59 /* BlueMonkeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9BF6181A4892B600227C59 /* BlueMonkeyTests.swift */; };
+		DF44E78C1A678BA400C9BC6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44E78B1A678BA400C9BC6B /* AppDelegate.swift */; };
+		DF44E78E1A678BA400C9BC6B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF44E78D1A678BA400C9BC6B /* GameScene.sks */; };
+		DF44E7901A678BA400C9BC6B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44E78F1A678BA400C9BC6B /* GameScene.swift */; };
+		DF44E7921A678BA400C9BC6B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44E7911A678BA400C9BC6B /* GameViewController.swift */; };
+		DF44E7951A678BA400C9BC6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF44E7931A678BA400C9BC6B /* Main.storyboard */; };
+		DF44E7971A678BA400C9BC6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF44E7961A678BA400C9BC6B /* Images.xcassets */; };
+		DF44E79A1A678BA400C9BC6B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF44E7981A678BA400C9BC6B /* LaunchScreen.xib */; };
+		DF44E7A61A678BA400C9BC6B /* BlueMonkeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44E7A51A678BA400C9BC6B /* BlueMonkeyTests.swift */; };
+		DF44E7B51A678C8600C9BC6B /* background-trees-loop.png in Resources */ = {isa = PBXBuildFile; fileRef = DF44E7B11A678C8600C9BC6B /* background-trees-loop.png */; };
+		DF44E7B71A678C8600C9BC6B /* mountains-loop.png in Resources */ = {isa = PBXBuildFile; fileRef = DF44E7B31A678C8600C9BC6B /* mountains-loop.png */; };
+		DF44E7B81A678C8600C9BC6B /* sky-loop.png in Resources */ = {isa = PBXBuildFile; fileRef = DF44E7B41A678C8600C9BC6B /* sky-loop.png */; };
+		DF45B5101A68B4E4006A3DBE /* foreground-trees-loop.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B50F1A68B4E4006A3DBE /* foreground-trees-loop.png */; };
+		DF45B5331A68C461006A3DBE /* bluemonkey_swing_1.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B5161A68C461006A3DBE /* bluemonkey_swing_1.png */; };
+		DF45B5341A68C461006A3DBE /* bluemonkey_swing_2.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B5171A68C461006A3DBE /* bluemonkey_swing_2.png */; };
+		DF45B5351A68C461006A3DBE /* bluemonkey_swing_3.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B5181A68C461006A3DBE /* bluemonkey_swing_3.png */; };
+		DF45B5361A68C461006A3DBE /* bluemonkey_swing_4.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B5191A68C461006A3DBE /* bluemonkey_swing_4.png */; };
+		DF45B5371A68C461006A3DBE /* bluemonkey_swing_5.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B51A1A68C461006A3DBE /* bluemonkey_swing_5.png */; };
+		DF45B5381A68C461006A3DBE /* bluemonkey_swing_6.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B51B1A68C461006A3DBE /* bluemonkey_swing_6.png */; };
+		DF45B5391A68C461006A3DBE /* bluemonkey_swing_7.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B51C1A68C461006A3DBE /* bluemonkey_swing_7.png */; };
+		DF45B53A1A68C461006A3DBE /* bluemonkey_swing_8.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B51D1A68C461006A3DBE /* bluemonkey_swing_8.png */; };
+		DF45B53F1A68C461006A3DBE /* bluemonkey_swing_13.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B5221A68C461006A3DBE /* bluemonkey_swing_13.png */; };
+		DF45B5401A68C461006A3DBE /* bluemonkey_swing_14.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B5231A68C461006A3DBE /* bluemonkey_swing_14.png */; };
+		DF45B5411A68C461006A3DBE /* bluemonkey_swing_15.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B5241A68C461006A3DBE /* bluemonkey_swing_15.png */; };
+		DF45B5421A68C461006A3DBE /* bluemonkey_swing_16.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B5251A68C461006A3DBE /* bluemonkey_swing_16.png */; };
+		DF45B5431A68C461006A3DBE /* bluemonkey_swing_17.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B5261A68C461006A3DBE /* bluemonkey_swing_17.png */; };
+		DF45B5441A68C461006A3DBE /* bluemonkey_swing_18.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B5271A68C461006A3DBE /* bluemonkey_swing_18.png */; };
+		DF45B5451A68C461006A3DBE /* bluemonkey_swing_19.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B5281A68C461006A3DBE /* bluemonkey_swing_19.png */; };
+		DF45B5461A68C461006A3DBE /* bluemonkey_swing_20.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B5291A68C461006A3DBE /* bluemonkey_swing_20.png */; };
+		DF45B5471A68C461006A3DBE /* bluemonkey_swing_21.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B52A1A68C461006A3DBE /* bluemonkey_swing_21.png */; };
+		DF45B5481A68C461006A3DBE /* bluemonkey_swing_22.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B52B1A68C461006A3DBE /* bluemonkey_swing_22.png */; };
+		DF45B5491A68C461006A3DBE /* bluemonkey_swing_23.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B52C1A68C461006A3DBE /* bluemonkey_swing_23.png */; };
+		DF45B54A1A68C461006A3DBE /* bluemonkey_swing_24.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B52D1A68C461006A3DBE /* bluemonkey_swing_24.png */; };
+		DF45B54B1A68C461006A3DBE /* bluemonkey_swing_25.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B52E1A68C461006A3DBE /* bluemonkey_swing_25.png */; };
+		DF45B54C1A68C461006A3DBE /* bluemonkey_swing_26.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B52F1A68C461006A3DBE /* bluemonkey_swing_26.png */; };
+		DF45B54D1A68C461006A3DBE /* bluemonkey_swing_27.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B5301A68C461006A3DBE /* bluemonkey_swing_27.png */; };
+		DF45B54E1A68C461006A3DBE /* bluemonkey_swing_28.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B5311A68C461006A3DBE /* bluemonkey_swing_28.png */; };
+		DF45B54F1A68C461006A3DBE /* bluemonkey_swing_29.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45B5321A68C461006A3DBE /* bluemonkey_swing_29.png */; };
+		DF994B4E1A69E707003D4110 /* foreground-trees-back-loop.png in Resources */ = {isa = PBXBuildFile; fileRef = DF994B4C1A69E707003D4110 /* foreground-trees-back-loop.png */; };
+		DF994B581A69F454003D4110 /* bluemonkey_swing_9.png in Resources */ = {isa = PBXBuildFile; fileRef = DF994B541A69F454003D4110 /* bluemonkey_swing_9.png */; };
+		DF994B591A69F454003D4110 /* bluemonkey_swing_10.png in Resources */ = {isa = PBXBuildFile; fileRef = DF994B551A69F454003D4110 /* bluemonkey_swing_10.png */; };
+		DF994B5A1A69F454003D4110 /* bluemonkey_swing_11.png in Resources */ = {isa = PBXBuildFile; fileRef = DF994B561A69F454003D4110 /* bluemonkey_swing_11.png */; };
+		DF994B5B1A69F454003D4110 /* bluemonkey_swing_12.png in Resources */ = {isa = PBXBuildFile; fileRef = DF994B571A69F454003D4110 /* bluemonkey_swing_12.png */; };
+		DF994B5D1A6A0417003D4110 /* foreground-trees-front-loop.png in Resources */ = {isa = PBXBuildFile; fileRef = DF994B5C1A6A0417003D4110 /* foreground-trees-front-loop.png */; };
+		DF9ECB9E1A6ABDE300F9F6AD /* foreground_trees_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9ECB9D1A6ABDE300F9F6AD /* foreground_trees_1024.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DF9BF6131A4892B600227C59 /* PBXContainerItemProxy */ = {
+		DF44E7A01A678BA400C9BC6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DF9BF5F41A4892B600227C59 /* Project object */;
+			containerPortal = DF44E77E1A678BA300C9BC6B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DF9BF5FB1A4892B600227C59;
+			remoteGlobalIDString = DF44E7851A678BA400C9BC6B;
 			remoteInfo = BlueMonkey;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DF9BF5FC1A4892B600227C59 /* BlueMonkey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueMonkey.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF9BF6001A4892B600227C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF9BF6011A4892B600227C59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF9BF6031A4892B600227C59 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		DF9BF6051A4892B600227C59 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		DF9BF6071A4892B600227C59 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		DF9BF60A1A4892B600227C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DF9BF60C1A4892B600227C59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DF9BF6121A4892B600227C59 /* BlueMonkeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueMonkeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF9BF6171A4892B600227C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF9BF6181A4892B600227C59 /* BlueMonkeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueMonkeyTests.swift; sourceTree = "<group>"; };
+		DF44E7861A678BA400C9BC6B /* BlueMonkey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueMonkey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF44E78A1A678BA400C9BC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF44E78B1A678BA400C9BC6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF44E78D1A678BA400C9BC6B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DF44E78F1A678BA400C9BC6B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DF44E7911A678BA400C9BC6B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DF44E7941A678BA400C9BC6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF44E7961A678BA400C9BC6B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF44E7991A678BA400C9BC6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DF44E79F1A678BA400C9BC6B /* BlueMonkeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueMonkeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF44E7A41A678BA400C9BC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF44E7A51A678BA400C9BC6B /* BlueMonkeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueMonkeyTests.swift; sourceTree = "<group>"; };
+		DF44E7B11A678C8600C9BC6B /* background-trees-loop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-trees-loop.png"; sourceTree = "<group>"; };
+		DF44E7B31A678C8600C9BC6B /* mountains-loop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mountains-loop.png"; sourceTree = "<group>"; };
+		DF44E7B41A678C8600C9BC6B /* sky-loop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sky-loop.png"; sourceTree = "<group>"; };
+		DF45B50F1A68B4E4006A3DBE /* foreground-trees-loop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foreground-trees-loop.png"; sourceTree = "<group>"; };
+		DF45B5161A68C461006A3DBE /* bluemonkey_swing_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_1.png; sourceTree = "<group>"; };
+		DF45B5171A68C461006A3DBE /* bluemonkey_swing_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_2.png; sourceTree = "<group>"; };
+		DF45B5181A68C461006A3DBE /* bluemonkey_swing_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_3.png; sourceTree = "<group>"; };
+		DF45B5191A68C461006A3DBE /* bluemonkey_swing_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_4.png; sourceTree = "<group>"; };
+		DF45B51A1A68C461006A3DBE /* bluemonkey_swing_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_5.png; sourceTree = "<group>"; };
+		DF45B51B1A68C461006A3DBE /* bluemonkey_swing_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_6.png; sourceTree = "<group>"; };
+		DF45B51C1A68C461006A3DBE /* bluemonkey_swing_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_7.png; sourceTree = "<group>"; };
+		DF45B51D1A68C461006A3DBE /* bluemonkey_swing_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_8.png; sourceTree = "<group>"; };
+		DF45B5221A68C461006A3DBE /* bluemonkey_swing_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_13.png; sourceTree = "<group>"; };
+		DF45B5231A68C461006A3DBE /* bluemonkey_swing_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_14.png; sourceTree = "<group>"; };
+		DF45B5241A68C461006A3DBE /* bluemonkey_swing_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_15.png; sourceTree = "<group>"; };
+		DF45B5251A68C461006A3DBE /* bluemonkey_swing_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_16.png; sourceTree = "<group>"; };
+		DF45B5261A68C461006A3DBE /* bluemonkey_swing_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_17.png; sourceTree = "<group>"; };
+		DF45B5271A68C461006A3DBE /* bluemonkey_swing_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_18.png; sourceTree = "<group>"; };
+		DF45B5281A68C461006A3DBE /* bluemonkey_swing_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_19.png; sourceTree = "<group>"; };
+		DF45B5291A68C461006A3DBE /* bluemonkey_swing_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_20.png; sourceTree = "<group>"; };
+		DF45B52A1A68C461006A3DBE /* bluemonkey_swing_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_21.png; sourceTree = "<group>"; };
+		DF45B52B1A68C461006A3DBE /* bluemonkey_swing_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_22.png; sourceTree = "<group>"; };
+		DF45B52C1A68C461006A3DBE /* bluemonkey_swing_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_23.png; sourceTree = "<group>"; };
+		DF45B52D1A68C461006A3DBE /* bluemonkey_swing_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_24.png; sourceTree = "<group>"; };
+		DF45B52E1A68C461006A3DBE /* bluemonkey_swing_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_25.png; sourceTree = "<group>"; };
+		DF45B52F1A68C461006A3DBE /* bluemonkey_swing_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_26.png; sourceTree = "<group>"; };
+		DF45B5301A68C461006A3DBE /* bluemonkey_swing_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_27.png; sourceTree = "<group>"; };
+		DF45B5311A68C461006A3DBE /* bluemonkey_swing_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_28.png; sourceTree = "<group>"; };
+		DF45B5321A68C461006A3DBE /* bluemonkey_swing_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_29.png; sourceTree = "<group>"; };
+		DF994B4C1A69E707003D4110 /* foreground-trees-back-loop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foreground-trees-back-loop.png"; sourceTree = "<group>"; };
+		DF994B541A69F454003D4110 /* bluemonkey_swing_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_9.png; sourceTree = "<group>"; };
+		DF994B551A69F454003D4110 /* bluemonkey_swing_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_10.png; sourceTree = "<group>"; };
+		DF994B561A69F454003D4110 /* bluemonkey_swing_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_11.png; sourceTree = "<group>"; };
+		DF994B571A69F454003D4110 /* bluemonkey_swing_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluemonkey_swing_12.png; sourceTree = "<group>"; };
+		DF994B5C1A6A0417003D4110 /* foreground-trees-front-loop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foreground-trees-front-loop.png"; sourceTree = "<group>"; };
+		DF9ECB9D1A6ABDE300F9F6AD /* foreground_trees_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foreground_trees_1024.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DF9BF5F91A4892B600227C59 /* Frameworks */ = {
+		DF44E7831A678BA400C9BC6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF9BF60F1A4892B600227C59 /* Frameworks */ = {
+		DF44E79C1A678BA400C9BC6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,73 +132,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DF9BF5F31A4892B600227C59 = {
+		DF44E77D1A678BA300C9BC6B = {
 			isa = PBXGroup;
 			children = (
-				DF9BF5FE1A4892B600227C59 /* BlueMonkey */,
-				DF9BF6151A4892B600227C59 /* BlueMonkeyTests */,
-				DF9BF5FD1A4892B600227C59 /* Products */,
+				DF44E7881A678BA400C9BC6B /* BlueMonkey */,
+				DF44E7A21A678BA400C9BC6B /* BlueMonkeyTests */,
+				DF44E7871A678BA400C9BC6B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DF9BF5FD1A4892B600227C59 /* Products */ = {
+		DF44E7871A678BA400C9BC6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF9BF5FC1A4892B600227C59 /* BlueMonkey.app */,
-				DF9BF6121A4892B600227C59 /* BlueMonkeyTests.xctest */,
+				DF44E7861A678BA400C9BC6B /* BlueMonkey.app */,
+				DF44E79F1A678BA400C9BC6B /* BlueMonkeyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF9BF5FE1A4892B600227C59 /* BlueMonkey */ = {
+		DF44E7881A678BA400C9BC6B /* BlueMonkey */ = {
 			isa = PBXGroup;
 			children = (
-				DF9BF6011A4892B600227C59 /* AppDelegate.swift */,
-				DF9BF6031A4892B600227C59 /* GameScene.sks */,
-				DF9BF6051A4892B600227C59 /* GameScene.swift */,
-				DF9BF6071A4892B600227C59 /* GameViewController.swift */,
-				DF9BF6091A4892B600227C59 /* Main.storyboard */,
-				DF9BF60C1A4892B600227C59 /* Images.xcassets */,
-				DF9BF5FF1A4892B600227C59 /* Supporting Files */,
+				DF44E7AF1A678BF900C9BC6B /* Assets */,
+				DF44E78B1A678BA400C9BC6B /* AppDelegate.swift */,
+				DF44E78D1A678BA400C9BC6B /* GameScene.sks */,
+				DF44E78F1A678BA400C9BC6B /* GameScene.swift */,
+				DF44E7911A678BA400C9BC6B /* GameViewController.swift */,
+				DF44E7931A678BA400C9BC6B /* Main.storyboard */,
+				DF44E7961A678BA400C9BC6B /* Images.xcassets */,
+				DF44E7981A678BA400C9BC6B /* LaunchScreen.xib */,
+				DF44E7891A678BA400C9BC6B /* Supporting Files */,
 			);
 			path = BlueMonkey;
 			sourceTree = "<group>";
 		};
-		DF9BF5FF1A4892B600227C59 /* Supporting Files */ = {
+		DF44E7891A678BA400C9BC6B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DF9BF6001A4892B600227C59 /* Info.plist */,
+				DF44E78A1A678BA400C9BC6B /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DF9BF6151A4892B600227C59 /* BlueMonkeyTests */ = {
+		DF44E7A21A678BA400C9BC6B /* BlueMonkeyTests */ = {
 			isa = PBXGroup;
 			children = (
-				DF9BF6181A4892B600227C59 /* BlueMonkeyTests.swift */,
-				DF9BF6161A4892B600227C59 /* Supporting Files */,
+				DF44E7A51A678BA400C9BC6B /* BlueMonkeyTests.swift */,
+				DF44E7A31A678BA400C9BC6B /* Supporting Files */,
 			);
 			path = BlueMonkeyTests;
 			sourceTree = "<group>";
 		};
-		DF9BF6161A4892B600227C59 /* Supporting Files */ = {
+		DF44E7A31A678BA400C9BC6B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DF9BF6171A4892B600227C59 /* Info.plist */,
+				DF44E7A41A678BA400C9BC6B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF44E7AF1A678BF900C9BC6B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DF45B5141A68C442006A3DBE /* Characters */,
+				DF44E7B01A678C5C00C9BC6B /* Environment */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		DF44E7B01A678C5C00C9BC6B /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				DF9ECB9D1A6ABDE300F9F6AD /* foreground_trees_1024.png */,
+				DF994B5C1A6A0417003D4110 /* foreground-trees-front-loop.png */,
+				DF994B4C1A69E707003D4110 /* foreground-trees-back-loop.png */,
+				DF45B50F1A68B4E4006A3DBE /* foreground-trees-loop.png */,
+				DF44E7B11A678C8600C9BC6B /* background-trees-loop.png */,
+				DF44E7B31A678C8600C9BC6B /* mountains-loop.png */,
+				DF44E7B41A678C8600C9BC6B /* sky-loop.png */,
+			);
+			name = Environment;
+			sourceTree = "<group>";
+		};
+		DF45B5141A68C442006A3DBE /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				DF45B5151A68C44C006A3DBE /* swing */,
+			);
+			name = Characters;
+			sourceTree = "<group>";
+		};
+		DF45B5151A68C44C006A3DBE /* swing */ = {
+			isa = PBXGroup;
+			children = (
+				DF994B541A69F454003D4110 /* bluemonkey_swing_9.png */,
+				DF994B551A69F454003D4110 /* bluemonkey_swing_10.png */,
+				DF994B561A69F454003D4110 /* bluemonkey_swing_11.png */,
+				DF994B571A69F454003D4110 /* bluemonkey_swing_12.png */,
+				DF45B5161A68C461006A3DBE /* bluemonkey_swing_1.png */,
+				DF45B5171A68C461006A3DBE /* bluemonkey_swing_2.png */,
+				DF45B5181A68C461006A3DBE /* bluemonkey_swing_3.png */,
+				DF45B5191A68C461006A3DBE /* bluemonkey_swing_4.png */,
+				DF45B51A1A68C461006A3DBE /* bluemonkey_swing_5.png */,
+				DF45B51B1A68C461006A3DBE /* bluemonkey_swing_6.png */,
+				DF45B51C1A68C461006A3DBE /* bluemonkey_swing_7.png */,
+				DF45B51D1A68C461006A3DBE /* bluemonkey_swing_8.png */,
+				DF45B5221A68C461006A3DBE /* bluemonkey_swing_13.png */,
+				DF45B5231A68C461006A3DBE /* bluemonkey_swing_14.png */,
+				DF45B5241A68C461006A3DBE /* bluemonkey_swing_15.png */,
+				DF45B5251A68C461006A3DBE /* bluemonkey_swing_16.png */,
+				DF45B5261A68C461006A3DBE /* bluemonkey_swing_17.png */,
+				DF45B5271A68C461006A3DBE /* bluemonkey_swing_18.png */,
+				DF45B5281A68C461006A3DBE /* bluemonkey_swing_19.png */,
+				DF45B5291A68C461006A3DBE /* bluemonkey_swing_20.png */,
+				DF45B52A1A68C461006A3DBE /* bluemonkey_swing_21.png */,
+				DF45B52B1A68C461006A3DBE /* bluemonkey_swing_22.png */,
+				DF45B52C1A68C461006A3DBE /* bluemonkey_swing_23.png */,
+				DF45B52D1A68C461006A3DBE /* bluemonkey_swing_24.png */,
+				DF45B52E1A68C461006A3DBE /* bluemonkey_swing_25.png */,
+				DF45B52F1A68C461006A3DBE /* bluemonkey_swing_26.png */,
+				DF45B5301A68C461006A3DBE /* bluemonkey_swing_27.png */,
+				DF45B5311A68C461006A3DBE /* bluemonkey_swing_28.png */,
+				DF45B5321A68C461006A3DBE /* bluemonkey_swing_29.png */,
+			);
+			name = swing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF9BF5FB1A4892B600227C59 /* BlueMonkey */ = {
+		DF44E7851A678BA400C9BC6B /* BlueMonkey */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF9BF61C1A4892B600227C59 /* Build configuration list for PBXNativeTarget "BlueMonkey" */;
+			buildConfigurationList = DF44E7A91A678BA400C9BC6B /* Build configuration list for PBXNativeTarget "BlueMonkey" */;
 			buildPhases = (
-				DF9BF5F81A4892B600227C59 /* Sources */,
-				DF9BF5F91A4892B600227C59 /* Frameworks */,
-				DF9BF5FA1A4892B600227C59 /* Resources */,
+				DF44E7821A678BA400C9BC6B /* Sources */,
+				DF44E7831A678BA400C9BC6B /* Frameworks */,
+				DF44E7841A678BA400C9BC6B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -132,46 +275,46 @@
 			);
 			name = BlueMonkey;
 			productName = BlueMonkey;
-			productReference = DF9BF5FC1A4892B600227C59 /* BlueMonkey.app */;
+			productReference = DF44E7861A678BA400C9BC6B /* BlueMonkey.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DF9BF6111A4892B600227C59 /* BlueMonkeyTests */ = {
+		DF44E79E1A678BA400C9BC6B /* BlueMonkeyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF9BF61F1A4892B600227C59 /* Build configuration list for PBXNativeTarget "BlueMonkeyTests" */;
+			buildConfigurationList = DF44E7AC1A678BA400C9BC6B /* Build configuration list for PBXNativeTarget "BlueMonkeyTests" */;
 			buildPhases = (
-				DF9BF60E1A4892B600227C59 /* Sources */,
-				DF9BF60F1A4892B600227C59 /* Frameworks */,
-				DF9BF6101A4892B600227C59 /* Resources */,
+				DF44E79B1A678BA400C9BC6B /* Sources */,
+				DF44E79C1A678BA400C9BC6B /* Frameworks */,
+				DF44E79D1A678BA400C9BC6B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DF9BF6141A4892B600227C59 /* PBXTargetDependency */,
+				DF44E7A11A678BA400C9BC6B /* PBXTargetDependency */,
 			);
 			name = BlueMonkeyTests;
 			productName = BlueMonkeyTests;
-			productReference = DF9BF6121A4892B600227C59 /* BlueMonkeyTests.xctest */;
+			productReference = DF44E79F1A678BA400C9BC6B /* BlueMonkeyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DF9BF5F41A4892B600227C59 /* Project object */ = {
+		DF44E77E1A678BA300C9BC6B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "MELISSA LABBE";
 				TargetAttributes = {
-					DF9BF5FB1A4892B600227C59 = {
-						CreatedOnToolsVersion = 6.0;
+					DF44E7851A678BA400C9BC6B = {
+						CreatedOnToolsVersion = 6.1.1;
 					};
-					DF9BF6111A4892B600227C59 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = DF9BF5FB1A4892B600227C59;
+					DF44E79E1A678BA400C9BC6B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DF44E7851A678BA400C9BC6B;
 					};
 				};
 			};
-			buildConfigurationList = DF9BF5F71A4892B600227C59 /* Build configuration list for PBXProject "BlueMonkey" */;
+			buildConfigurationList = DF44E7811A678BA300C9BC6B /* Build configuration list for PBXProject "BlueMonkey" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -179,29 +322,66 @@
 				en,
 				Base,
 			);
-			mainGroup = DF9BF5F31A4892B600227C59;
-			productRefGroup = DF9BF5FD1A4892B600227C59 /* Products */;
+			mainGroup = DF44E77D1A678BA300C9BC6B;
+			productRefGroup = DF44E7871A678BA400C9BC6B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF9BF5FB1A4892B600227C59 /* BlueMonkey */,
-				DF9BF6111A4892B600227C59 /* BlueMonkeyTests */,
+				DF44E7851A678BA400C9BC6B /* BlueMonkey */,
+				DF44E79E1A678BA400C9BC6B /* BlueMonkeyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DF9BF5FA1A4892B600227C59 /* Resources */ = {
+		DF44E7841A678BA400C9BC6B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF9BF60D1A4892B600227C59 /* Images.xcassets in Resources */,
-				DF9BF6041A4892B600227C59 /* GameScene.sks in Resources */,
-				DF9BF60B1A4892B600227C59 /* Main.storyboard in Resources */,
+				DF45B5431A68C461006A3DBE /* bluemonkey_swing_17.png in Resources */,
+				DF45B5331A68C461006A3DBE /* bluemonkey_swing_1.png in Resources */,
+				DF44E7B51A678C8600C9BC6B /* background-trees-loop.png in Resources */,
+				DF45B5421A68C461006A3DBE /* bluemonkey_swing_16.png in Resources */,
+				DF45B53A1A68C461006A3DBE /* bluemonkey_swing_8.png in Resources */,
+				DF44E79A1A678BA400C9BC6B /* LaunchScreen.xib in Resources */,
+				DF45B5401A68C461006A3DBE /* bluemonkey_swing_14.png in Resources */,
+				DF45B5481A68C461006A3DBE /* bluemonkey_swing_22.png in Resources */,
+				DF45B5391A68C461006A3DBE /* bluemonkey_swing_7.png in Resources */,
+				DF45B5451A68C461006A3DBE /* bluemonkey_swing_19.png in Resources */,
+				DF45B5351A68C461006A3DBE /* bluemonkey_swing_3.png in Resources */,
+				DF44E7971A678BA400C9BC6B /* Images.xcassets in Resources */,
+				DF45B54C1A68C461006A3DBE /* bluemonkey_swing_26.png in Resources */,
+				DF45B54B1A68C461006A3DBE /* bluemonkey_swing_25.png in Resources */,
+				DF994B5A1A69F454003D4110 /* bluemonkey_swing_11.png in Resources */,
+				DF45B5471A68C461006A3DBE /* bluemonkey_swing_21.png in Resources */,
+				DF994B5D1A6A0417003D4110 /* foreground-trees-front-loop.png in Resources */,
+				DF45B54D1A68C461006A3DBE /* bluemonkey_swing_27.png in Resources */,
+				DF44E78E1A678BA400C9BC6B /* GameScene.sks in Resources */,
+				DF45B5491A68C461006A3DBE /* bluemonkey_swing_23.png in Resources */,
+				DF45B54F1A68C461006A3DBE /* bluemonkey_swing_29.png in Resources */,
+				DF45B54A1A68C461006A3DBE /* bluemonkey_swing_24.png in Resources */,
+				DF45B5411A68C461006A3DBE /* bluemonkey_swing_15.png in Resources */,
+				DF9ECB9E1A6ABDE300F9F6AD /* foreground_trees_1024.png in Resources */,
+				DF45B5441A68C461006A3DBE /* bluemonkey_swing_18.png in Resources */,
+				DF45B5461A68C461006A3DBE /* bluemonkey_swing_20.png in Resources */,
+				DF45B54E1A68C461006A3DBE /* bluemonkey_swing_28.png in Resources */,
+				DF994B5B1A69F454003D4110 /* bluemonkey_swing_12.png in Resources */,
+				DF45B5361A68C461006A3DBE /* bluemonkey_swing_4.png in Resources */,
+				DF994B591A69F454003D4110 /* bluemonkey_swing_10.png in Resources */,
+				DF44E7B81A678C8600C9BC6B /* sky-loop.png in Resources */,
+				DF44E7B71A678C8600C9BC6B /* mountains-loop.png in Resources */,
+				DF45B5101A68B4E4006A3DBE /* foreground-trees-loop.png in Resources */,
+				DF45B5371A68C461006A3DBE /* bluemonkey_swing_5.png in Resources */,
+				DF45B5341A68C461006A3DBE /* bluemonkey_swing_2.png in Resources */,
+				DF994B581A69F454003D4110 /* bluemonkey_swing_9.png in Resources */,
+				DF45B5381A68C461006A3DBE /* bluemonkey_swing_6.png in Resources */,
+				DF44E7951A678BA400C9BC6B /* Main.storyboard in Resources */,
+				DF45B53F1A68C461006A3DBE /* bluemonkey_swing_13.png in Resources */,
+				DF994B4E1A69E707003D4110 /* foreground-trees-back-loop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF9BF6101A4892B600227C59 /* Resources */ = {
+		DF44E79D1A678BA400C9BC6B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,47 +391,55 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DF9BF5F81A4892B600227C59 /* Sources */ = {
+		DF44E7821A678BA400C9BC6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF9BF6061A4892B600227C59 /* GameScene.swift in Sources */,
-				DF9BF6081A4892B600227C59 /* GameViewController.swift in Sources */,
-				DF9BF6021A4892B600227C59 /* AppDelegate.swift in Sources */,
+				DF44E7901A678BA400C9BC6B /* GameScene.swift in Sources */,
+				DF44E7921A678BA400C9BC6B /* GameViewController.swift in Sources */,
+				DF44E78C1A678BA400C9BC6B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF9BF60E1A4892B600227C59 /* Sources */ = {
+		DF44E79B1A678BA400C9BC6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF9BF6191A4892B600227C59 /* BlueMonkeyTests.swift in Sources */,
+				DF44E7A61A678BA400C9BC6B /* BlueMonkeyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DF9BF6141A4892B600227C59 /* PBXTargetDependency */ = {
+		DF44E7A11A678BA400C9BC6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DF9BF5FB1A4892B600227C59 /* BlueMonkey */;
-			targetProxy = DF9BF6131A4892B600227C59 /* PBXContainerItemProxy */;
+			target = DF44E7851A678BA400C9BC6B /* BlueMonkey */;
+			targetProxy = DF44E7A01A678BA400C9BC6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DF9BF6091A4892B600227C59 /* Main.storyboard */ = {
+		DF44E7931A678BA400C9BC6B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DF9BF60A1A4892B600227C59 /* Base */,
+				DF44E7941A678BA400C9BC6B /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF44E7981A678BA400C9BC6B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF44E7991A678BA400C9BC6B /* Base */,
+			);
+			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DF9BF61A1A4892B600227C59 /* Debug */ = {
+		DF44E7A71A678BA400C9BC6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,7 +473,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -294,7 +482,7 @@
 			};
 			name = Debug;
 		};
-		DF9BF61B1A4892B600227C59 /* Release */ = {
+		DF44E7A81A678BA400C9BC6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -322,7 +510,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -330,29 +518,27 @@
 			};
 			name = Release;
 		};
-		DF9BF61D1A4892B600227C59 /* Debug */ = {
+		DF44E7AA1A678BA400C9BC6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = BlueMonkey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		DF9BF61E1A4892B600227C59 /* Release */ = {
+		DF44E7AB1A678BA400C9BC6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = BlueMonkey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		DF9BF6201A4892B600227C59 /* Debug */ = {
+		DF44E7AD1A678BA400C9BC6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -371,7 +557,7 @@
 			};
 			name = Debug;
 		};
-		DF9BF6211A4892B600227C59 /* Release */ = {
+		DF44E7AE1A678BA400C9BC6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -389,32 +575,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF9BF5F71A4892B600227C59 /* Build configuration list for PBXProject "BlueMonkey" */ = {
+		DF44E7811A678BA300C9BC6B /* Build configuration list for PBXProject "BlueMonkey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF9BF61A1A4892B600227C59 /* Debug */,
-				DF9BF61B1A4892B600227C59 /* Release */,
+				DF44E7A71A678BA400C9BC6B /* Debug */,
+				DF44E7A81A678BA400C9BC6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF9BF61C1A4892B600227C59 /* Build configuration list for PBXNativeTarget "BlueMonkey" */ = {
+		DF44E7A91A678BA400C9BC6B /* Build configuration list for PBXNativeTarget "BlueMonkey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF9BF61D1A4892B600227C59 /* Debug */,
-				DF9BF61E1A4892B600227C59 /* Release */,
+				DF44E7AA1A678BA400C9BC6B /* Debug */,
+				DF44E7AB1A678BA400C9BC6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		DF9BF61F1A4892B600227C59 /* Build configuration list for PBXNativeTarget "BlueMonkeyTests" */ = {
+		DF44E7AC1A678BA400C9BC6B /* Build configuration list for PBXNativeTarget "BlueMonkeyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF9BF6201A4892B600227C59 /* Debug */,
-				DF9BF6211A4892B600227C59 /* Release */,
+				DF44E7AD1A678BA400C9BC6B /* Debug */,
+				DF44E7AE1A678BA400C9BC6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DF9BF5F41A4892B600227C59 /* Project object */;
+	rootObject = DF44E77E1A678BA300C9BC6B /* Project object */;
 }
