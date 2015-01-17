@@ -2,8 +2,8 @@
 //  GameViewController.swift
 //  BlueMonkey
 //
-//  Created by MELISSA LABBE on 12/22/14.
-//  Copyright (c) 2014 MELISSA LABBE. All rights reserved.
+//  Created by MELISSA LABBE on 1/15/15.
+//  Copyright (c) 2015 MELISSA LABBE. All rights reserved.
 //
 
 import UIKit
@@ -12,7 +12,7 @@ import SpriteKit
 extension SKNode {
     class func unarchiveFromFile(file : NSString) -> SKNode? {
         if let path = NSBundle.mainBundle().pathForResource(file, ofType: "sks") {
-            var sceneData = NSData.dataWithContentsOfFile(path, options: .DataReadingMappedIfSafe, error: nil)
+            var sceneData = NSData(contentsOfFile: path, options: .DataReadingMappedIfSafe, error: nil)!
             var archiver = NSKeyedUnarchiver(forReadingWithData: sceneData)
             
             archiver.setClass(self.classForKeyedUnarchiver(), forClassName: "SKScene")
@@ -41,7 +41,7 @@ class GameViewController: UIViewController {
             
             /* Set the scale mode to scale to fit the window */
             scene.scaleMode = .AspectFill
-            
+            scene.size = skView.bounds.size
             skView.presentScene(scene)
         }
     }
@@ -52,9 +52,9 @@ class GameViewController: UIViewController {
 
     override func supportedInterfaceOrientations() -> Int {
         if UIDevice.currentDevice().userInterfaceIdiom == .Phone {
-            return Int(UIInterfaceOrientationMask.AllButUpsideDown.toRaw())
+            return Int(UIInterfaceOrientationMask.AllButUpsideDown.rawValue)
         } else {
-            return Int(UIInterfaceOrientationMask.All.toRaw())
+            return Int(UIInterfaceOrientationMask.All.rawValue)
         }
     }
 
