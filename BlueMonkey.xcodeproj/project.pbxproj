@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF156EF41A6DB4BC00321D31 /* SceneOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF156EF31A6DB4BC00321D31 /* SceneOneViewController.swift */; };
+		DF156EF61A6DB57600321D31 /* SceneOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF156EF51A6DB57600321D31 /* SceneOne.swift */; };
 		DF44E78C1A678BA400C9BC6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44E78B1A678BA400C9BC6B /* AppDelegate.swift */; };
-		DF44E78E1A678BA400C9BC6B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF44E78D1A678BA400C9BC6B /* GameScene.sks */; };
-		DF44E7901A678BA400C9BC6B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44E78F1A678BA400C9BC6B /* GameScene.swift */; };
-		DF44E7921A678BA400C9BC6B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44E7911A678BA400C9BC6B /* GameViewController.swift */; };
+		DF44E78E1A678BA400C9BC6B /* IntroScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF44E78D1A678BA400C9BC6B /* IntroScene.sks */; };
+		DF44E7901A678BA400C9BC6B /* IntroScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44E78F1A678BA400C9BC6B /* IntroScene.swift */; };
+		DF44E7921A678BA400C9BC6B /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44E7911A678BA400C9BC6B /* IntroViewController.swift */; };
 		DF44E7951A678BA400C9BC6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF44E7931A678BA400C9BC6B /* Main.storyboard */; };
 		DF44E7971A678BA400C9BC6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF44E7961A678BA400C9BC6B /* Images.xcassets */; };
 		DF44E79A1A678BA400C9BC6B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF44E7981A678BA400C9BC6B /* LaunchScreen.xib */; };
@@ -64,12 +66,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF156EF31A6DB4BC00321D31 /* SceneOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneOneViewController.swift; sourceTree = "<group>"; };
+		DF156EF51A6DB57600321D31 /* SceneOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneOne.swift; sourceTree = "<group>"; };
 		DF44E7861A678BA400C9BC6B /* BlueMonkey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueMonkey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF44E78A1A678BA400C9BC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF44E78B1A678BA400C9BC6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF44E78D1A678BA400C9BC6B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		DF44E78F1A678BA400C9BC6B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		DF44E7911A678BA400C9BC6B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DF44E78D1A678BA400C9BC6B /* IntroScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = IntroScene.sks; sourceTree = "<group>"; };
+		DF44E78F1A678BA400C9BC6B /* IntroScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScene.swift; sourceTree = "<group>"; };
+		DF44E7911A678BA400C9BC6B /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		DF44E7941A678BA400C9BC6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF44E7961A678BA400C9BC6B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DF44E7991A678BA400C9BC6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -132,6 +136,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF156EEC1A6DA87500321D31 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				DF44E78D1A678BA400C9BC6B /* IntroScene.sks */,
+				DF44E78F1A678BA400C9BC6B /* IntroScene.swift */,
+				DF44E7911A678BA400C9BC6B /* IntroViewController.swift */,
+				DF156EF31A6DB4BC00321D31 /* SceneOneViewController.swift */,
+				DF156EF51A6DB57600321D31 /* SceneOne.swift */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
 		DF44E77D1A678BA300C9BC6B = {
 			isa = PBXGroup;
 			children = (
@@ -153,11 +169,9 @@
 		DF44E7881A678BA400C9BC6B /* BlueMonkey */ = {
 			isa = PBXGroup;
 			children = (
+				DF156EEC1A6DA87500321D31 /* Scenes */,
 				DF44E7AF1A678BF900C9BC6B /* Assets */,
 				DF44E78B1A678BA400C9BC6B /* AppDelegate.swift */,
-				DF44E78D1A678BA400C9BC6B /* GameScene.sks */,
-				DF44E78F1A678BA400C9BC6B /* GameScene.swift */,
-				DF44E7911A678BA400C9BC6B /* GameViewController.swift */,
 				DF44E7931A678BA400C9BC6B /* Main.storyboard */,
 				DF44E7961A678BA400C9BC6B /* Images.xcassets */,
 				DF44E7981A678BA400C9BC6B /* LaunchScreen.xib */,
@@ -356,7 +370,7 @@
 				DF45B5471A68C461006A3DBE /* bluemonkey_swing_21.png in Resources */,
 				DF994B5D1A6A0417003D4110 /* foreground-trees-front-loop.png in Resources */,
 				DF45B54D1A68C461006A3DBE /* bluemonkey_swing_27.png in Resources */,
-				DF44E78E1A678BA400C9BC6B /* GameScene.sks in Resources */,
+				DF44E78E1A678BA400C9BC6B /* IntroScene.sks in Resources */,
 				DF45B5491A68C461006A3DBE /* bluemonkey_swing_23.png in Resources */,
 				DF45B54F1A68C461006A3DBE /* bluemonkey_swing_29.png in Resources */,
 				DF45B54A1A68C461006A3DBE /* bluemonkey_swing_24.png in Resources */,
@@ -395,8 +409,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF44E7901A678BA400C9BC6B /* GameScene.swift in Sources */,
-				DF44E7921A678BA400C9BC6B /* GameViewController.swift in Sources */,
+				DF44E7901A678BA400C9BC6B /* IntroScene.swift in Sources */,
+				DF44E7921A678BA400C9BC6B /* IntroViewController.swift in Sources */,
+				DF156EF61A6DB57600321D31 /* SceneOne.swift in Sources */,
+				DF156EF41A6DB4BC00321D31 /* SceneOneViewController.swift in Sources */,
 				DF44E78C1A678BA400C9BC6B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
