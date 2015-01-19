@@ -45,11 +45,6 @@ class IntroViewController: UIViewController {
             skView.presentScene(scene)
         }
     }
-
-    @IBAction func goToSceneOnePressed(sender: AnyObject) {
-        let sceneOne = self.storyboard?.instantiateViewControllerWithIdentifier("SceneOne") as SceneOneViewController
-        self.navigationController?.pushViewController(sceneOne, animated: true)
-    }
     
     override func shouldAutorotate() -> Bool {
         return true
@@ -70,5 +65,15 @@ class IntroViewController: UIViewController {
 
     override func prefersStatusBarHidden() -> Bool {
         return true
+    }
+    
+    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+        /* Called when a touch begins */
+        
+        for touch: AnyObject in touches {
+            let sceneOne = self.storyboard?.instantiateViewControllerWithIdentifier("SceneOne") as SceneOneViewController
+            self.navigationController?.pushViewController(sceneOne, animated: true)
+        }
+        
     }
 }
