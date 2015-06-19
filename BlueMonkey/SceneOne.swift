@@ -9,10 +9,10 @@
 import SpriteKit
 
 class SceneOne: SKScene {
+
     
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
-        
     }
     
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {

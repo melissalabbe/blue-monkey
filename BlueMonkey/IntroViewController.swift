@@ -9,6 +9,7 @@
 import UIKit
 import SpriteKit
 
+
 extension SKNode {
     class func unarchiveFromFile(file : NSString) -> SKNode? {
         if let path = NSBundle.mainBundle().pathForResource(file, ofType: "sks") {
@@ -25,11 +26,13 @@ extension SKNode {
     }
 }
 
+
 class IntroViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //initialtize intro animation
         let titleView:bmTitleView = bmTitleView()
         titleView.addBackgroundTreesAnimation()
         titleView.addBird02Animation()

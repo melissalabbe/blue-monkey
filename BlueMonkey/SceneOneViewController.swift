@@ -8,11 +8,21 @@
 
 import UIKit
 import SpriteKit
+import AVFoundation
+import Foundation
 
-class SceneOneViewController: UIViewController {
+class SceneOneViewController: UIViewController, AVAudioPlayerDelegate {
+    
+    var backgroundMusic = AVAudioPlayer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //initialize soundController
+        let soundController = SoundController()
+        soundController.setSessionPlayback()
+        backgroundMusic = soundController.setupAudioPlayerWithFile("encoded_audio",type: "aif");
+        //backgroundMusic.play()
         
         if let scene = SceneOne.unarchiveFromFile("SceneOne") as? SceneOne {
             // Configure the view.
