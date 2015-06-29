@@ -18,6 +18,12 @@ class SoundController : NSObject {
     var avPlayer:AVAudioPlayer!
     var session:AVAudioSession!
     var timer:NSTimer!
+    var currentTrack:String!
+    
+    var cuepointDict = [
+        "encoded_audio": [0.79, 1.22, 1.54, 1.79, 2.67, 2.90, 3.33, 3.59, 3.78, 3.93, 4.88, 5.14, 5.33, 5.46, 5.70, 5.99]
+    
+    ]
     
     override init() {
         super.init()
@@ -46,11 +52,19 @@ class SoundController : NSObject {
     }
     
     func checkCuePoint(){
-        println(self.avPlayer.currentTime)
+        let playerTime = self.avPlayer.currentTime
+        let cuePoints = cuepointDict[currentTrack]!
+        
+        for (index,cue) in enumerate(cuePoints){
+            if(cue > playerTime){
+                println("\(index):\(cue)")
+                break
+            }
+        }
     }
     
     func startPolling(){
-        timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "checkCuePoint", userInfo: nil, repeats: true)
+        timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: "checkCuePoint", userInfo: nil, repeats: true)
     }
     
     func stopAVPLayer() {
@@ -80,7 +94,7 @@ class SoundController : NSObject {
     The player instance needs to be an instance variable. Otherwise it will disappear before playing.
     */
     func setupAudioPlayerWithFile(file:NSString, type:NSString) -> AVAudioPlayer  {
-
+        currentTrack = file
         var path = NSBundle.mainBundle().pathForResource(file as String, ofType: type as String)
         var url = NSURL.fileURLWithPath(path!)
         var error: NSError?
@@ -142,6 +156,7 @@ extension SoundController : AVAudioPlayerDelegate {
     
     func audioPlayerDidFinishPlaying(player: AVAudioPlayer!, successfully flag: Bool) {
         println("finished playing \(flag)")
+        timer.invalidate()
     }
     
     

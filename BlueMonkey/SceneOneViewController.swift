@@ -13,7 +13,7 @@ import Foundation
 
 class SceneOneViewController: UIViewController, AVAudioPlayerDelegate {
     
-    var backgroundMusic = AVAudioPlayer()
+    var voiceover = AVAudioPlayer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,7 @@ class SceneOneViewController: UIViewController, AVAudioPlayerDelegate {
         //initialize soundController
         let soundController = SoundController()
         soundController.setSessionPlayback()
-        backgroundMusic = soundController.setupAudioPlayerWithFile("encoded_audio",type: "aif");
+        voiceover = soundController.setupAudioPlayerWithFile("encoded_audio",type: "aif");
         //backgroundMusic.play()
         
         if let scene = SceneOne.unarchiveFromFile("SceneOne") as? SceneOne {

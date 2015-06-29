@@ -10,7 +10,6 @@
 		DF156EF41A6DB4BC00321D31 /* SceneOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF156EF31A6DB4BC00321D31 /* SceneOneViewController.swift */; };
 		DF156EF61A6DB57600321D31 /* SceneOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF156EF51A6DB57600321D31 /* SceneOne.swift */; };
 		DF39D61A1B13B0E20088D4FA /* bmTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF39D6191B13B0E20088D4FA /* bmTitleView.swift */; };
-		DF42770F1B2FB85B00021420 /* 1_welcome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF42770E1B2FB85B00021420 /* 1_welcome.mp3 */; };
 		DF44E78C1A678BA400C9BC6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44E78B1A678BA400C9BC6B /* AppDelegate.swift */; };
 		DF44E78E1A678BA400C9BC6B /* IntroScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF44E78D1A678BA400C9BC6B /* IntroScene.sks */; };
 		DF44E7901A678BA400C9BC6B /* IntroScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44E78F1A678BA400C9BC6B /* IntroScene.swift */; };
@@ -310,7 +309,6 @@
 		DF156EF31A6DB4BC00321D31 /* SceneOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneOneViewController.swift; sourceTree = "<group>"; };
 		DF156EF51A6DB57600321D31 /* SceneOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneOne.swift; sourceTree = "<group>"; };
 		DF39D6191B13B0E20088D4FA /* bmTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bmTitleView.swift; sourceTree = "<group>"; };
-		DF42770E1B2FB85B00021420 /* 1_welcome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1_welcome.mp3; sourceTree = "<group>"; };
 		DF44E7861A678BA400C9BC6B /* BlueMonkey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueMonkey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF44E78A1A678BA400C9BC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF44E78B1A678BA400C9BC6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -701,7 +699,6 @@
 		DFC939231B2E2200002E9E44 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				DF42770E1B2FB85B00021420 /* 1_welcome.mp3 */,
 				DFC939241B2E2220002E9E44 /* encoded_audio.aif */,
 				DFC939281B2E4836002E9E44 /* encoded_test_audio.caf */,
 			);
@@ -1307,7 +1304,6 @@
 				DFE0334A1B15551D0045E4C1 /* bm_swing100.png in Resources */,
 				DFE033351B15551D0045E4C1 /* bm_swing89@2x.png in Resources */,
 				DFE033331B15551D0045E4C1 /* bm_swing88@2x.png in Resources */,
-				DF42770F1B2FB85B00021420 /* 1_welcome.mp3 in Resources */,
 				DFE0333D1B15551D0045E4C1 /* bm_swing93@2x.png in Resources */,
 				DFE032771B15551D0045E4C1 /* bird_09@2x.png in Resources */,
 				DFE032C41B15551D0045E4C1 /* bm_swing33.png in Resources */,
