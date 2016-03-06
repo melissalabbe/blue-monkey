@@ -15,6 +15,9 @@ class SceneOneViewController: UIViewController, AVAudioPlayerDelegate {
     
     var voiceover = AVAudioPlayer()
     
+    @IBOutlet var label0: UILabel!
+    @IBOutlet var label1: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -23,6 +26,12 @@ class SceneOneViewController: UIViewController, AVAudioPlayerDelegate {
         soundController.setSessionPlayback()
         voiceover = soundController.setupAudioPlayerWithFile("encoded_audio",type: "aif");
         //backgroundMusic.play()
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "actOnSpecialNotification", name: notificationKey, object: nil)
+
+        
+        
+        label0.textColor = UIColor.blueColor()
         
         if let scene = SceneOne.unarchiveFromFile("SceneOne") as? SceneOne {
             // Configure the view.
@@ -39,4 +48,9 @@ class SceneOneViewController: UIViewController, AVAudioPlayerDelegate {
             skView.presentScene(scene)
         }
     }
+    
+    func actOnSpecialNotification() {
+        println("Cuepoint changed")
+    }
+
 }

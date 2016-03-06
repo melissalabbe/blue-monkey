@@ -9,6 +9,9 @@
 import Foundation
 import AVFoundation
 
+//Globally define a "special notification key" constant that can be broadcast / tuned in to...
+let notificationKey = "com.bluemonkey"
+
 /**
 Plays an audion file (MP3) using an AVAudioPlayer
 */
@@ -58,6 +61,8 @@ class SoundController : NSObject {
         for (index,cue) in enumerate(cuePoints){
             if(cue > playerTime){
                 println("\(index):\(cue)")
+                NSNotificationCenter.defaultCenter().postNotificationName(notificationKey, object: self)
+
                 break
             }
         }
@@ -70,7 +75,7 @@ class SoundController : NSObject {
     func stopAVPLayer() {
         if avPlayer.playing {
             avPlayer.stop()
-            //self.playerTimer.invalidate()
+            timer.invalidate()
         }
     }
     
@@ -106,40 +111,6 @@ class SoundController : NSObject {
         
         return avPlayer!
     }
-    
-    /*
-    func readFileIntoAVPlayer() {
-        
-        var error: NSError?
-        let fileURL:NSURL = NSBundle.mainBundle().URLForResource("1_welcome", withExtension: "mp3")!
-        
-        // the player must be a field. Otherwise it will be released before playing starts.
-        // self.avPlayer = AVAudioPlayer(contentsOfURL: fileURL, error: &error)
-        avPlayer = AVAudioPlayer(contentsOfURL: fileURL, error: &error)
-        if error != nil {
-            if let e = error {
-                println(e.localizedDescription)
-            }
-        }
-        /*
-        NSNotificationCenter.defaultCenter().addObserver(self,
-            selector:"sessionInterrupted:",
-            name:AVAudioSessionInterruptionNotification,
-            object:avPlayer)
-        */
-        
-        //avPlayer.delegate = self
-        avPlayer.prepareToPlay()
-        //avPlayer.volume = 1.0
-        avPlayer.play()
-        
-        if(avPlayer.playing){
-            println("playing \(fileURL)")
-        }else{
-            println("not playing")
-        }
-    }
-    */
 
     // MARK: notification callbacks
     func sessionInterrupted(notification:NSNotification) {
