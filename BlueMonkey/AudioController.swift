@@ -11,6 +11,8 @@ import AVFoundation
 
 //Globally define a "special notification key" constant that can be broadcast / tuned in to...
 let notificationKey = "com.bluemonkey"
+//Current scene and cuepoint value
+var currentCuepoint = 0;
 
 /**
 Plays an audion file (MP3) using an AVAudioPlayer
@@ -24,7 +26,7 @@ class SoundController : NSObject {
     var currentTrack:String!
     
     var cuepointDict = [
-        "encoded_audio": [0.79, 1.22, 1.54, 1.79, 2.67, 2.90, 3.33, 3.59, 3.78, 3.93, 4.88, 5.14, 5.33, 5.46, 5.70, 5.99]
+        "encoded_audio": [0.79, 1.22, 1.54, 2.55, 2.67, 2.90, 3.33, 3.59, 3.78, 4.55, 4.88, 5.14, 5.33, 5.46, 5.70, 5.99]
     
     ]
     
@@ -61,6 +63,7 @@ class SoundController : NSObject {
         for (index,cue) in enumerate(cuePoints){
             if(cue > playerTime){
                 println("\(index):\(cue)")
+                currentCuepoint = index
                 NSNotificationCenter.defaultCenter().postNotificationName(notificationKey, object: self)
 
                 break
