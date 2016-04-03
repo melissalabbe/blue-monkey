@@ -15,6 +15,7 @@ class SceneOneViewController: UIViewController, AVAudioPlayerDelegate {
     
     var voiceover = AVAudioPlayer()
     var labels = [UILabel]()
+    let blueColor = UIColor(red:0.00, green:0.00, blue:0.60, alpha:1.0)
     
     @IBOutlet var label0: UILabel!
     @IBOutlet var label1: UILabel!
@@ -65,6 +66,11 @@ class SceneOneViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     func onCuePoint() {
+        
+        for (index,label) in enumerate(labels){
+            label.textColor = blueColor
+        }
+        
         var label = labels[currentCuepoint]
         label.textColor = UIColor.magentaColor()
     }

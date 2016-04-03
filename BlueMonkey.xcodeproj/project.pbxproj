@@ -18,6 +18,15 @@
 		DF44E7971A678BA400C9BC6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF44E7961A678BA400C9BC6B /* Images.xcassets */; };
 		DF44E79A1A678BA400C9BC6B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF44E7981A678BA400C9BC6B /* LaunchScreen.xib */; };
 		DF44E7A61A678BA400C9BC6B /* BlueMonkeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44E7A51A678BA400C9BC6B /* BlueMonkeyTests.swift */; };
+		DF70B9AB1CB1867D000ED20C /* ShowcaseOrn.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF70B9A31CB1867D000ED20C /* ShowcaseOrn.otf */; };
+		DF70B9AC1CB1867D000ED20C /* ShowcaseSans-ita.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF70B9A41CB1867D000ED20C /* ShowcaseSans-ita.otf */; };
+		DF70B9AD1CB1867D000ED20C /* ShowcaseSans.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF70B9A51CB1867D000ED20C /* ShowcaseSans.otf */; };
+		DF70B9AE1CB1867D000ED20C /* ShowcaseSansMini-ita.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF70B9A61CB1867D000ED20C /* ShowcaseSansMini-ita.otf */; };
+		DF70B9AF1CB1867D000ED20C /* ShowcaseSansMini.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF70B9A71CB1867D000ED20C /* ShowcaseSansMini.otf */; };
+		DF70B9B01CB1867D000ED20C /* ShowcaseScript.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF70B9A81CB1867D000ED20C /* ShowcaseScript.otf */; };
+		DF70B9B11CB1867D000ED20C /* ShowcaseSlab-ita.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF70B9A91CB1867D000ED20C /* ShowcaseSlab-ita.otf */; };
+		DF70B9B21CB1867D000ED20C /* ShowcaseSlab.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF70B9AA1CB1867D000ED20C /* ShowcaseSlab.otf */; };
+		DF70B9B41CB18688000ED20C /* Arial Rounded MT Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF70B9B31CB18688000ED20C /* Arial Rounded MT Regular.ttf */; };
 		DFC939261B2E262E002E9E44 /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC939251B2E262E002E9E44 /* AudioController.swift */; };
 		DFC939271B2E42D1002E9E44 /* encoded_audio.aif in Resources */ = {isa = PBXBuildFile; fileRef = DFC939241B2E2220002E9E44 /* encoded_audio.aif */; };
 		DFC939291B2E4836002E9E44 /* encoded_test_audio.caf in Resources */ = {isa = PBXBuildFile; fileRef = DFC939281B2E4836002E9E44 /* encoded_test_audio.caf */; };
@@ -321,6 +330,15 @@
 		DF44E79F1A678BA400C9BC6B /* BlueMonkeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueMonkeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF44E7A41A678BA400C9BC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF44E7A51A678BA400C9BC6B /* BlueMonkeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueMonkeyTests.swift; sourceTree = "<group>"; };
+		DF70B9A31CB1867D000ED20C /* ShowcaseOrn.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ShowcaseOrn.otf; sourceTree = "<group>"; };
+		DF70B9A41CB1867D000ED20C /* ShowcaseSans-ita.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ShowcaseSans-ita.otf"; sourceTree = "<group>"; };
+		DF70B9A51CB1867D000ED20C /* ShowcaseSans.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ShowcaseSans.otf; sourceTree = "<group>"; };
+		DF70B9A61CB1867D000ED20C /* ShowcaseSansMini-ita.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ShowcaseSansMini-ita.otf"; sourceTree = "<group>"; };
+		DF70B9A71CB1867D000ED20C /* ShowcaseSansMini.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ShowcaseSansMini.otf; sourceTree = "<group>"; };
+		DF70B9A81CB1867D000ED20C /* ShowcaseScript.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ShowcaseScript.otf; sourceTree = "<group>"; };
+		DF70B9A91CB1867D000ED20C /* ShowcaseSlab-ita.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ShowcaseSlab-ita.otf"; sourceTree = "<group>"; };
+		DF70B9AA1CB1867D000ED20C /* ShowcaseSlab.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ShowcaseSlab.otf; sourceTree = "<group>"; };
+		DF70B9B31CB18688000ED20C /* Arial Rounded MT Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Rounded MT Regular.ttf"; sourceTree = "<group>"; };
 		DFC939241B2E2220002E9E44 /* encoded_audio.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = encoded_audio.aif; sourceTree = "<group>"; };
 		DFC939251B2E262E002E9E44 /* AudioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
 		DFC939281B2E4836002E9E44 /* encoded_test_audio.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = encoded_test_audio.caf; sourceTree = "<group>"; };
@@ -659,6 +677,7 @@
 		DF44E7881A678BA400C9BC6B /* BlueMonkey */ = {
 			isa = PBXGroup;
 			children = (
+				DF70B9A21CB185B7000ED20C /* Fonts */,
 				DFC939231B2E2200002E9E44 /* Audio */,
 				DFE033721B1557C90045E4C1 /* CoreAnimator */,
 				DF156EEC1A6DA87500321D31 /* Scenes */,
@@ -694,6 +713,22 @@
 				DF44E7A41A678BA400C9BC6B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF70B9A21CB185B7000ED20C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DF70B9B31CB18688000ED20C /* Arial Rounded MT Regular.ttf */,
+				DF70B9A31CB1867D000ED20C /* ShowcaseOrn.otf */,
+				DF70B9A41CB1867D000ED20C /* ShowcaseSans-ita.otf */,
+				DF70B9A51CB1867D000ED20C /* ShowcaseSans.otf */,
+				DF70B9A61CB1867D000ED20C /* ShowcaseSansMini-ita.otf */,
+				DF70B9A71CB1867D000ED20C /* ShowcaseSansMini.otf */,
+				DF70B9A81CB1867D000ED20C /* ShowcaseScript.otf */,
+				DF70B9A91CB1867D000ED20C /* ShowcaseSlab-ita.otf */,
+				DF70B9AA1CB1867D000ED20C /* ShowcaseSlab.otf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		DFC939231B2E2200002E9E44 /* Audio */ = {
@@ -1116,6 +1151,7 @@
 				DFE033181B15551D0045E4C1 /* bm_swing75.png in Resources */,
 				DFE033551B15551D0045E4C1 /* bm_swing105@2x.png in Resources */,
 				DFE0335C1B15551D0045E4C1 /* bm_swing109.png in Resources */,
+				DF70B9B41CB18688000ED20C /* Arial Rounded MT Regular.ttf in Resources */,
 				DFE033061B15551D0045E4C1 /* bm_swing66.png in Resources */,
 				DFE0328F1B15551D0045E4C1 /* bm_swing06@2x.png in Resources */,
 				DFE033371B15551D0045E4C1 /* bm_swing90@2x.png in Resources */,
@@ -1151,9 +1187,11 @@
 				DFE032891B15551D0045E4C1 /* bm_swing03@2x.png in Resources */,
 				DFE032671B15551D0045E4C1 /* bird_01@2x.png in Resources */,
 				DFE0330C1B15551D0045E4C1 /* bm_swing69.png in Resources */,
+				DF70B9AE1CB1867D000ED20C /* ShowcaseSansMini-ita.otf in Resources */,
 				DFE032A31B15551D0045E4C1 /* bm_swing16@2x.png in Resources */,
 				DFE032DA1B15551D0045E4C1 /* bm_swing44.png in Resources */,
 				DFE032A61B15551D0045E4C1 /* bm_swing18.png in Resources */,
+				DF70B9B01CB1867D000ED20C /* ShowcaseScript.otf in Resources */,
 				DFE032B21B15551D0045E4C1 /* bm_swing24.png in Resources */,
 				DFE032981B15551D0045E4C1 /* bm_swing11.png in Resources */,
 				DFE033041B15551D0045E4C1 /* bm_swing65.png in Resources */,
@@ -1248,6 +1286,7 @@
 				DFE033221B15551D0045E4C1 /* bm_swing80.png in Resources */,
 				DFE033111B15551D0045E4C1 /* bm_swing71@2x.png in Resources */,
 				DFE0328D1B15551D0045E4C1 /* bm_swing05@2x.png in Resources */,
+				DF70B9B21CB1867D000ED20C /* ShowcaseSlab.otf in Resources */,
 				DFE032691B15551D0045E4C1 /* bird_02@2x.png in Resources */,
 				DFE032651B15551D0045E4C1 /* bird_00@2x.png in Resources */,
 				DFE0326E1B15551D0045E4C1 /* bird_05.png in Resources */,
@@ -1260,6 +1299,7 @@
 				DFE032DB1B15551D0045E4C1 /* bm_swing44@2x.png in Resources */,
 				DFE032C81B15551D0045E4C1 /* bm_swing35.png in Resources */,
 				DFE032AF1B15551D0045E4C1 /* bm_swing22@2x.png in Resources */,
+				DF70B9AF1CB1867D000ED20C /* ShowcaseSansMini.otf in Resources */,
 				DFE0332F1B15551D0045E4C1 /* bm_swing86@2x.png in Resources */,
 				DFE032EE1B15551D0045E4C1 /* bm_swing54.png in Resources */,
 				DFE032931B15551D0045E4C1 /* bm_swing08@2x.png in Resources */,
@@ -1272,6 +1312,7 @@
 				DFE0326D1B15551D0045E4C1 /* bird_04@2x.png in Resources */,
 				DFE0330B1B15551D0045E4C1 /* bm_swing68@2x.png in Resources */,
 				DFE0327D1B15551D0045E4C1 /* bird_12@2x.png in Resources */,
+				DF70B9AC1CB1867D000ED20C /* ShowcaseSans-ita.otf in Resources */,
 				DFE032881B15551D0045E4C1 /* bm_swing03.png in Resources */,
 				DFE032D71B15551D0045E4C1 /* bm_swing42@2x.png in Resources */,
 				DFE033241B15551D0045E4C1 /* bm_swing81.png in Resources */,
@@ -1279,7 +1320,9 @@
 				DFE033521B15551D0045E4C1 /* bm_swing104.png in Resources */,
 				DFE032DE1B15551D0045E4C1 /* bm_swing46.png in Resources */,
 				DFE0331D1B15551D0045E4C1 /* bm_swing77@2x.png in Resources */,
+				DF70B9AB1CB1867D000ED20C /* ShowcaseOrn.otf in Resources */,
 				DFE032C91B15551D0045E4C1 /* bm_swing35@2x.png in Resources */,
+				DF70B9B11CB1867D000ED20C /* ShowcaseSlab-ita.otf in Resources */,
 				DFE032851B15551D0045E4C1 /* bm_swing01@2x.png in Resources */,
 				DFE032941B15551D0045E4C1 /* bm_swing09.png in Resources */,
 				DFE032911B15551D0045E4C1 /* bm_swing07@2x.png in Resources */,
@@ -1346,6 +1389,7 @@
 				DFE032DF1B15551D0045E4C1 /* bm_swing46@2x.png in Resources */,
 				DFE033381B15551D0045E4C1 /* bm_swing91.png in Resources */,
 				DFE032631B15551D0045E4C1 /* background_trees@2x.png in Resources */,
+				DF70B9AD1CB1867D000ED20C /* ShowcaseSans.otf in Resources */,
 				DFE0333B1B15551D0045E4C1 /* bm_swing92@2x.png in Resources */,
 				DFE032A91B15551D0045E4C1 /* bm_swing19@2x.png in Resources */,
 				DFE0332D1B15551D0045E4C1 /* bm_swing85@2x.png in Resources */,

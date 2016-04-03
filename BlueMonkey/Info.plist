@@ -32,6 +32,12 @@
 	</array>
 	<key>UIStatusBarHidden</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>ShowcaseSlab.otf</string>
+		<string>ShowcaseSansMini.otf</string>
+		<string>ShowcaseSans.otf</string>
+	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
